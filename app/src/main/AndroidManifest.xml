@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.asynctask">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".viewRoom"></activity>
+        <activity android:name=".create_type_room" />
+        <activity android:name=".UpdateTypeRoom" />
+        <activity android:name=".controlTypeRoom" />
+        <activity android:name=".controlCustomer" />
+        <activity android:name=".SignUpUser" />
+        <activity android:name=".controlRoom" />
+        <activity android:name=".createHotel" />
+        <activity android:name=".ViewHotel" />
+        <activity android:name=".controlHotel" />
+        <activity android:name=".homeActivity" />
+        <activity android:name=".loginScreen" />
+        <activity android:name=".UpdateCustomer" />
+        <activity android:name=".SignUpCustomer" />
+        <activity
+            android:name=".MenuBarActivity"
+            android:label="activity_menu_bar"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
